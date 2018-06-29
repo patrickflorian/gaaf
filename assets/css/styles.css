@@ -1,0 +1,24 @@
+span{
+  margin-left:1px;
+}
+
+div.section{
+  margin:6px;
+}
+
+div .section{
+  margin:6px;
+}
+
+i.material-icons{
+  margin:1px;
+}
+
+i.glyphicon.glyphicon-trash{
+  margin:1px;
+}
+
+i{
+  margin:1px;
+}
+
