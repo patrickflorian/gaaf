@@ -15,11 +15,28 @@
 <body>
     <?php
         include_once "header.php";
-        include_once "nav_side.php";
+        
+        include_once "app/model/Loader.php";
     ?>
-    <div class="container">
-        <?php include_once "container.php";?>
+    <div class="container-fluid">
+    
+        <?php 
+        include_once "nav_side.php";
+        
+        ?>
+        <div class="col-md-8">
+        <?php
+        if(isset($_GET['q']))
+        {
+            Loader::load($_GET['q'],"app");
+        }
+        ?>
     </div>
+    <?php
+        include_once "nav_side_left.php";
+        ?>
+    </div>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>

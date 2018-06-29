@@ -199,28 +199,6 @@
                     </tbody>
                 </table>
             </div>
-            <div class="dropdown visible-xs-inline visible-sm-inline visible-md-inline visible-lg-inline">
-                <button class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                    <li role="presentation">
-                        <a href="#">Modifier
-                            <i class="glyphicon glyphicon-pencil"></i>
-                        </a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#">supprimer
-                            <i class="glyphicon glyphicon-trash"></i>
-                        </a>
-                    </li>
-                    <li role="presentation">
-                        <a href="#">dupliquer
-                            <i class="material-icons">content_copy</i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
     <section></section>

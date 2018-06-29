@@ -5,7 +5,7 @@
  * @date    2018-06-29 12:37:26
  * @version 1.0.0
  */
-
+include_once "phpChart_Lite/conf.php";
 ?>
 
 <div class="row">
@@ -18,7 +18,7 @@
  * @version 1.0.0
  */
 
-include_once "phpChart_Lite/conf.php";
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //Bar 1 Example
@@ -95,13 +95,6 @@ sineRenderer = function() {
   };
 </script>
 
-<?php
-$data1 = array();
-$pc = new C_PhpChartX('./jsondata.txt','basic_chart_ajax');
-$pc->set_title(array('text'=>'Basic Chart Ajax'));
-$pc->set_data_renderer("js::ajaxDataRenderer");
-$pc->draw();
-?>
 <script>
 var ajaxDataRenderer = function(url, plot)
 		{
@@ -117,13 +110,5 @@ var ajaxDataRenderer = function(url, plot)
 			});
 			return ret;
 		};
-</script>
-class GAAF extends Apps {
-    
-    function __construct(){
-        
-    }
-
-}
-            </div>
+</script>   </div>
 </div>
