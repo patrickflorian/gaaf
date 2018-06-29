@@ -1,15 +1,27 @@
-<?php
-/**
- * GAAF
- * @authors Lelouch (noumbissipatrick@gmail.com )
- * @date    2018-06-28 20:17:48
- * @version 1.0.0
- */
+<!DOCTYPE html>
+<html>
 
-class GAAF extends Apps {
-    
-    function __construct(){
-        
-    }
-    
-}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAAF</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+</head>
+
+<body>
+    <?php
+        include_once "header.php";
+        include_once "nav_side.php";
+    ?>
+    <div class="container">
+        <?php include_once "container.php";?>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
