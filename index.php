@@ -28,7 +28,10 @@
         <?php
         if(isset($_GET['q']))
         {
-            Loader::load($_GET['q'],"app");
+            if(isset($_GET['m'])) 
+               if (isset($_GET['sm']))Loader::load($_GET['q'],$_GET['m']."/".$_GET['sm']); else Loader::load($_GET['q'],$_GET['m']);
+        
+            else Loader::load($_GET['q'],"app");
         }
         ?>
     </div>
@@ -39,6 +42,5 @@
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    <?php
+        include_once  "app/assets/js/gaaf_js.php";?>

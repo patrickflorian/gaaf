@@ -6,7 +6,7 @@
  * @version 0.0.1
  */
 ?>
-<div class="col-md-2">
+<div class="col-md-2 default">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title">Panel Heading</h3></div>

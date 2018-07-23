@@ -19,7 +19,6 @@
                         <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" href="#"> <span class="caret"></span><img class="img-rounded dropdown-image" src="assets/img/avatar.jpg"></a>
                         <ul class="dropdown-menu dropdown-menu-right" role="menu">
                             <li role="presentation"><a href="#">Settings </a></li>
-                            <li role="presentation"><a href="#">Payments </a></li>
                             <li class="divider" role="presentation"></li>
                             <li role="presentation" class="active"><a href="#">Logout </a></li>
                         </ul>
