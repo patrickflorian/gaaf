@@ -24,7 +24,7 @@
         include_once "nav_side.php";
         
         ?>
-        <div class="col-md-8">
+        <div class="col-md-8 main-page">
         <?php
         if(isset($_GET['q']))
         {

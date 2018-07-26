@@ -25,13 +25,10 @@ i{
   background-color: #3e3f3a;
 }
 .sub-header{
-  font-size: 7px;
+  /*font-size: 10px;*/
 }
 .sm-form-control{
   display:inline;
-  width:100%;
-  height:46px;
-  font-size:8px;
   line-height:1.42857143;
   color:#3e3f3a;
   background-color:#ffffff;

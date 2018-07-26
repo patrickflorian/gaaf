@@ -1,5 +1,8 @@
 <div class="sub-header">
 <div class="col-md-12">
+<fieldset>
+    <legend></legend>
+
         <div class="row form-inline form-group">
                 <label>Budget </label>
                 <input type="text"   class="form-control"/>
@@ -27,5 +30,6 @@
                 <input  class="form-control" type="text" />
             </div>
         </div>-->
+        </fieldset>
 </div>
 </div>
