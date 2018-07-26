@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAAF</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+    <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
+</head>
+
+<body>
+    <div class="col-lg-4 col-md-4 col-sm-5">
+        <form class="bootstrap-form-with-validation">
+            <h2 class="text-center"><i class="glyphicon glyphicon-plus-sign"></i>Nouvelle Dotation</h2>
+            <div class="form-group has-feedback">
+                <label class="control-label" for="text-input">Exercice </label>
+                <select class="form-control input-lg" name="dot_exercice" required="" autofocus="">
+                    <option value="1" selected="">Exercice | 2015</option>
+                    <option value="2">Exercice | 2016</option>
+                    <option value="3">Exercice | 2017</option>
+                </select><i class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></i></div>
+            <div class="form-group has-feedback">
+                <label class="control-label" for="password-input">Valeur de la dotation </label>
+                <input class="form-control" type="text"><i class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></i>
+                <p class="help-block text-nowrap text-lowercase text-right text-muted bg-warning">ceci ne sera plus modifiable une fois enregistrée</p>
+            </div>
+            <div class="form-group has-feedback">
+                <label class="control-label" for="search-input">paragraphe </label>
+                <div class="input-group">
+                    <div class="input-group-addon"><span> <i class="glyphicon glyphicon-th-list"></i></span></div>
+                    <input class="form-control" type="search" name="search" id="search-input">
+                </div><i class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></i></div>
+            <div class="form-group has-warning">
+                <label class="control-label">Static Control</label>
+                <p class="form-static-control">This is an example template, showing the proper bootstrap components and classes needed for creating a validation form. Any actual input validation and the logic behind it is up to the developer.&nbsp;</p>
+            </div>
+            <div class="form-group has-warning">
+                <button class="btn btn-primary" type="submit">Ajouter<i class="glyphicon glyphicon-plus"></i> </button>
+            </div>
+        </form>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h3 class="text-center modal-title">Confirm action modal</h3></div>
+                <div class="modal-body">
+                    <p class="lead text-center text-warning bg-success">êtes-vous sur de vouloir enregistrer cette nouvelle dotation</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">no </button>
+                    <button class="btn btn-primary" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
